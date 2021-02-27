@@ -1,0 +1,121 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+}
+
+.top-jpg {
+  position: absolute;
+  right: 51%;
+  bottom: 35%;
+}
+
+.bottom-jpg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+/* Middle */
+.middle-card {
+  background-color: white;
+}
+
+.table-middle {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.victor-jpg {
+  border-radius: 100%;
+  border: solid 5px white;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.middle-name {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 700;
+  padding-right: 5px;
+  font-size: 18px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.middle-age {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: hsl(0, 0%, 59%);
+  position: relative;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.middle-london {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 14px;
+  color: hsl(0, 0%, 59%);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Bottom */
+.bottom-card {
+  background-color: white;
+}
+
+.table-bottom {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottom-numbers {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 15px 30px 0 30px;
+}
+
+.bottom-followers {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400;
+  padding: 5px 25px 20px;
+  color: hsl(0, 0%, 59%);
+  font-size: 10px;
+}
+
+.bottom-likes {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400;
+  padding: 5px 25px 20px 40px;
+  color: hsl(0, 0%, 59%);
+  font-size: 10px;
+}
+
+.bottom-photos {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400;
+  padding: 5px 25px 20px 33px;
+  color: hsl(0, 0%, 59%);
+  font-size: 10px;
+}
